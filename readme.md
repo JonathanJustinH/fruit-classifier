@@ -1,5 +1,5 @@
 # Fruit Freshness Classifier Streamlit App
-# https://fruitclassifierbeta.streamlit.app/
+# https://fruit-classifier-ai.streamlit.app/
 A simple local Streamlit application that uses a Keras MobileNetV2 model to classify the freshness of fruits into **fresh**, **mild**, or **rotten**.
 
 ---
@@ -20,8 +20,8 @@ A simple local Streamlit application that uses a Keras MobileNetV2 model to clas
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/fruit-freshness-streamlit.git
-   cd fruit-freshness-streamlit
+   git clone https://github.com/JonathanJustinH/fruit-classifier/tree/main
+   cd fruit-classifier-ai
    ```
 
 2. **Create and activate a virtual environment** (recommended)
