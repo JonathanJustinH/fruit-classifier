@@ -1,0 +1,274 @@
+.stApp {
+        background-color: #0a0c13 !important;
+    }
+    
+    /* Hide Streamlit branding */
+    #MainMenu, footer, header {
+        visibility: hidden;
+    }
+    
+    /* Container styling */
+    .main-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    /* Header styling */
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        margin-bottom: 40px;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .logo-text {
+        color: white;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+    .beta-badge {
+        background-color: rgba(34, 197, 94, 0.2);
+        color: rgb(34, 197, 94);
+        padding: 2px 10px;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    /* Main content styling */
+    .title {
+        color: white;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    
+    .subtitle {
+        color: rgba(255, 255, 255, 0.7);
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 16px;
+    }
+    
+    /* Card styling */
+    .card {
+        background-color: #141a2b;
+        border-radius: 8px;
+        padding: 24px;
+        height: 100%;
+    }
+
+    .card2 {
+        background-color: #141a2b;
+        border-radius: 8px;
+        padding: 24px;
+        height: 425px;
+    }
+    
+    .card-title {
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+    
+    /* Upload area styling */
+    .upload-area {
+        border: 1px dashed rgba(255, 255, 255, 0.3);
+        border-radius: 8px;
+        padding: 40px 20px;
+        text-align: center;
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .upload-icon {
+        margin-bottom: 16px;
+        opacity: 0.6;
+    }
+    
+    .upload-text {
+        color: rgba(255, 255, 255, 0.6);
+        margin-bottom: 24px;
+    }
+    
+    .upload-button {
+        background-color: #1f2937;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+    
+    .upload-button:hover {
+        background-color: #374151;
+    }
+    
+    /* Results area styling */
+    .results-placeholder {
+        color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* Result details styling */
+    .result-card {
+        background-color: #1E1E1E;
+        border-radius: 8px;
+        padding: 24px;
+    }
+    
+    .result-header {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+    
+    .result-icon {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .fresh-icon {
+        background-color: rgba(34, 197, 94, 0.2);
+        color: rgb(34, 197, 94);
+    }
+    
+    .not-fresh-icon {
+        background-color: rgba(239, 68, 68, 0.2);
+        color: rgb(239, 68, 68);
+    }
+    
+    .result-title {
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        margin: 0;
+    }
+    
+    .result-subtitle {
+        color: rgba(255, 255, 255, 0.6);
+        margin: 0;
+    }
+    
+    .detail-section-title {
+        color: white;
+        font-weight: 600;
+        margin-bottom: 12px;
+    }
+    
+    .detail-box {
+        background-color: #2D3748;
+        border-radius: 8px;
+        padding: 16px;
+        margin-bottom: 12px;
+    }
+    
+    .detail-label {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    
+    .detail-value {
+        color: white;
+        font-weight: 500;
+    }
+    
+    /* Footer styling */
+    .footer {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        margin-top: 60px;
+    }
+    
+    /* Progress bar styling */
+    .stProgress > div > div {
+        background-color: rgb(34, 197, 94) !important;
+    }
+    
+    /* Hide default Streamlit elements */
+    .block-container {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        max-width: 100% !important;
+    }
+    
+    /* Fix file uploader styling */
+    .stFileUploader > div {
+        display: none !important;
+    }
+    
+    /* Fix button styling */
+    /* .stButton > button {
+        display: none !important;
+    } */
+    
+    /* Fix image display */
+    .stImage {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    /* Fix column gap */
+    .row-widget.stHorizontal {
+        gap: 20px !important;
+    }
+
+    .stFileUploader {
+        background-color: #1f2937;
+        border: 1px dashed rgba(255, 255, 255, 0.3);
+        border-radius: 8px;
+        padding: 40px 20px;
+        text-align: center;
+        min-height: 425px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 16px;
+    }
+    
+    .stFileUploader > label {
+        display: none !important;
+    }
+
+    .stFileUploader button {
+        display: none !important;
+    }
+
+    .stFileUploader input[type="file"] {
+        color: white;
+    }
+    .card .card-title {
+        text-align: center;
+    }
+    .result-card { 
+        min-height: 200px; 
+    }

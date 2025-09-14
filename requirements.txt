@@ -1,0 +1,5 @@
+streamlit
+numpy
+pillow
+tensorflow-cpu==2.16.1
+h5py>=3.1.0
